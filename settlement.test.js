@@ -7,7 +7,7 @@ const {
   settleFaulty,
   settleCorrected,
   processNotificationFailure
-} = require('../src/settlement');
+} = require('./settlement');
 
 let passed = 0;
 function test(name, fn) {
