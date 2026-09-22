@@ -9,7 +9,7 @@ The test run demonstrates two payouts from the faulty implementation and verifie
 
 ## Run command
 ```bash
-node test/settlement.test.js
+node settlement.test.js
 ```
 
 ## Actual local verification scope
