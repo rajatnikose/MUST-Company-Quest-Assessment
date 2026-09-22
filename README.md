@@ -6,7 +6,7 @@ This project is a sanitized local demonstration of a weekly settlement service.
 Requirements: Node.js 18+.
 
 ```bash
-node test/settlement.test.js
+node settlement.test.js
 ```
 
 The test file:
@@ -35,6 +35,6 @@ The local store is an in-memory fixture. A production implementation requires du
 - `test-cases.md`: documented test cases and expected results
 - `defect-report.md`: actionable defect and root-cause report, including retry reproduction
 - `release-readiness-checklist.md`: verified checks and explicitly unproven production controls
-- `src/settlement.js`: faulty and corrected reference implementations
-- `test/settlement.test.js`: executable business-rule and regression checks
+- `settlement.js`: faulty and corrected reference implementations
+- `settlement.test.js`: executable business-rule and regression checks
 - `results-handoff.md`: results, limitations, and handoff instructions
